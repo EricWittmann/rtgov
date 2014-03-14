@@ -1,3 +1,0 @@
-int counter=variables.get("counter");
-
-variables.put("counter", counter+1);
