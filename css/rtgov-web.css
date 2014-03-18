@@ -177,6 +177,10 @@ body {
   }
 }
 
+.release-date {
+  font-size: 13px;
+  padding-top: 5px;
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and ( min-width: 768px ) {
