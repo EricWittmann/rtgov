@@ -406,6 +406,12 @@
 		<dependency>
 			<groupId>org.picketlink</groupId>
 			<artifactId>picketlink-federation</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.santuario</groupId>
+					<artifactId>xmlsec</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
